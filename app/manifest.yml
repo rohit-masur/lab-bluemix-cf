@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 128M
+  instances: 1
+  domain: mybluemix.net
+  name: nyu-blumix-rm
+  host: nyu-blumix-rm
+  disk_quota: 1024M
+  services:
+  - RedisCloud
+  buildpack: python_buildpack
